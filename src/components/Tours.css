@@ -1,0 +1,30 @@
+.tours{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-shrink: 2;
+   }
+
+@media (max-width:1080px) and (min-width:787px) {
+    .tours{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr ;
+    }
+  }      
+
+@media (max-width:788px){
+   .tours{
+      display: gri;
+     grid-template-columns: 1fr 1fr;
+      
+   }
+}
+
+ 
+  @media  (max-width:487px) and (min-width:200px)  {
+     .tours{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+     }
+ }      

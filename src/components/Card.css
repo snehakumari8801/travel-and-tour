@@ -1,0 +1,60 @@
+.card{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding: 20px;
+ background-color: rgb(205, 237, 157);
+ margin: 20px 20px;
+ border-radius: 10px;
+ margin-top: 40px;
+}
+
+
+
+
+#image{
+    height: 200px; 
+  }
+
+  .info h2{
+   
+    
+  }
+
+  button{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: green;
+    color: white;
+  }
+  button:hover{
+    background-color: rgb(64, 64, 81);
+    color: white;
+    cursor: pointer;
+  }
+
+  @media(max-width:1080px) and (min-width:787px) {
+    #image{
+      width: 100%;
+    }
+  }
+  
+  @media (max-width:788px){
+    #image{
+      width: 100%;
+    }
+ }
+ 
+
+  @media (max-width:487px) and (min-width:200px){
+    #image{
+      width: 100%;    
+    }
+  }
+
+    
